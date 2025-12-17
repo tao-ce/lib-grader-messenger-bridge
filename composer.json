@@ -1,0 +1,30 @@
+{
+  "name": "oat-sa/lib-grader-messenger-bridge",
+  "description": "OAT Grader Messenger Bridge Library",
+  "type": "library",
+  "license": "AGPL-3.0-only OR LicenseRef-TAO-Commercial-License",
+  "require": {
+    "php": "^8.2",
+    "ext-json": "*",
+    "nesbot/carbon": "^2.28 || ^3.8"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~9"
+  },
+  "autoload": {
+    "psr-4": {
+      "OAT\\Library\\GraderMessengerBridge\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "OAT\\Library\\GraderMessengerBridge\\Tests\\": "tests/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Open Assessment Technologies S.A.",
+      "homepage": "https://www.taotesting.com"
+    }
+  ]
+}
